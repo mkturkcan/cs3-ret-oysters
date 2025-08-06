@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/oysters/aiapp/static/css/main.ed755b1a.css",
+    "main.js": "/oysters/aiapp/static/js/main.9f22bfd3.js",
+    "static/js/ort-wasm-simd.wasm": "/oysters/aiapp/static/js/ort-wasm-simd.wasm",
+    "static/js/ort-wasm-simd-threaded.wasm": "/oysters/aiapp/static/js/ort-wasm-simd-threaded.wasm",
+    "static/js/ort-wasm.wasm": "/oysters/aiapp/static/js/ort-wasm.wasm",
+    "static/js/ort-wasm-threaded.wasm": "/oysters/aiapp/static/js/ort-wasm-threaded.wasm",
+    "index.html": "/oysters/aiapp/index.html",
+    "main.ed755b1a.css.map": "/oysters/aiapp/static/css/main.ed755b1a.css.map",
+    "main.9f22bfd3.js.map": "/oysters/aiapp/static/js/main.9f22bfd3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed755b1a.css",
+    "static/js/main.9f22bfd3.js"
+  ]
+}
