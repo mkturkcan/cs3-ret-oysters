@@ -1,6 +1,7 @@
 <div align="center">
 
 # 🦪 Oyster Detection with ONNX on Web
+### [Live Demo](https://mkturkcan.github.io/cs3-ret-oysters/)
 
 [![CS3 RET](https://img.shields.io/badge/CS3%20RET-2025-orange?style=for-the-badge)]([https://cs3ret.org](https://cs3-erc.org/))
 [![React](https://img.shields.io/badge/React-18.2-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
