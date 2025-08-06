@@ -16,8 +16,8 @@
 
 ---
 
-<p align="center">
-  <img src="./sample.png" alt="Oyster Detection Demo" width="700"/>
+<p align="center"><a href="https://mkturkcan.github.io/cs3-ret-oysters/">
+  <img src="./sample.png" alt="Oyster Detection Demo" width="600"/></a>
 </p>
 
 <p align="center">
