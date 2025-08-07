@@ -28,7 +28,7 @@ const App = () => {
   const modelInputShape = [1, 3, 640, 640];
   const topk = 300;
   const iouThreshold = 0.45;
-  const scoreThreshold = 0.20;
+  const scoreThreshold = 0.25;
   
   function setupCanvasResize(canvas) {
     function resizeCanvas() {
@@ -44,6 +44,7 @@ const App = () => {
   const detectWithCounts = useCallback(async (imageSrc, canvas, session, topk, iouThreshold, scoreThreshold, modelInputShape) => {
     try {
       // Call the original detectImage function (now returns detections)
+      var mode = 0;
       const detections = await detectImage(
         imageSrc,
         canvas,
@@ -51,7 +52,7 @@ const App = () => {
         topk,
         iouThreshold,
         scoreThreshold,
-        modelInputShape
+        modelInputShape, mode
       );
       
       // Process detection data for counting
@@ -430,7 +431,9 @@ const App = () => {
             </div>
           </div>
         )}
-        
+        </div>
+
+      <div className="content">
         <img
           ref={imageRef}
           src="#"
@@ -487,7 +490,7 @@ const App = () => {
             cursor: session ? 'pointer' : 'not-allowed'
           }}
         >
-          {session ? 'Open local image (Beta)' : 'Loading...'}
+          {session ? 'Open local image' : 'Loading...'}
         </button>
         {image && !cameraMode && (
           <button

@@ -5,7 +5,7 @@ import labels from "./labels.json";
  * @param {HTMLCanvasElement} canvas canvas tag reference
  * @param {Array[Object]} boxes boxes array
  */
-export const renderBoxes = (canvas, boxes) => {
+export const renderBoxes = (canvas, boxes, mode) => {
   const ctx = canvas.getContext("2d");
   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height); // clean canvas
 
